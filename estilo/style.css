@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
 div.cabecalho {
+    text-align: center;
+    background-color: rgb(9, 255, 255);
+    padding: 5px;
+    width: 100%;
+}
 
-    background-color: aqua;
+p > a {
+
+    margin: 10px;
+    color: rgba(100, 100, 212, 0.836);
+    
+    
+    
+}
+
+div.imagem {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+div.sobre {
+    text-align: center;
+}
+
+p.destaque {
+
+    color: rgba(100, 100, 212, 0.836);
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+p > strong {
+
+    color:  rgba(100, 100, 212, 0.836);
+}
+
+div.servicos {
+    text-align: center;
+    background-color: rgba(74, 74, 149, 0.786);
 }
