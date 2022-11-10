@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+
 body {
+
+    font-family: Tahoma;
     
 
-    
+    width: 100%;
+    min-width: 280px;
+    max-width: 800px;
 }
 
 div.cabecalho {
@@ -11,21 +16,27 @@ div.cabecalho {
     background-color: rgb(9, 255, 255);
     padding: 5px;
     margin: 5px 5px 5px 5px;
+    width: 100%;
+    min-width: 280px;
+    max-width: 800px;
 }
 
 p > a {
 
-    margin: 10px;
-    color: rgba(100, 100, 212, 0.836);
+    margin: 0px 10px 0px 10px;
+    color: #1d1d1d;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+    font-size: 18px;
     
     
     
 }
 
 div.imagem {
+
     text-align: center;
-    padding: 20px;
-    width: 90%;
+    margin: 50px 0px 0px 0px ;
     
 }
 
@@ -38,49 +49,76 @@ div.sobre {
 
 p.destaque {
 
-    color: rgba(100, 100, 212, 0.836);
+    color: #1c81c0;
     font-size: 1.0em;
     font-weight: bold;
 }
 
 p > strong {
 
-    color:  rgba(100, 100, 212, 0.836);
+    color:  #1c81c0;
+    font-weight: bold;
 }
 
 div.servicos {
     text-align: center;
-    background-color: #172cebb6;
+    background-color: #1d80c1;
     color: white;
     padding: 15px;
     margin:  30px;
+    width: 700px;
+}
+
+div.servicos > p {
+
+    line-height: 42px;
+    text-align: center;
+    font-size: 19px;
+    
 }
 
 div.servicos > ul {
-    list-style-position: inside;
+    width: 135px;
+    margin: 40px auto 5px auto;
+    line-height: 35px;
+    font-size: 18px;
+    
 }
 strong.servicos1 {
-    color: gold;
+    color: #fff81b;
 }
 
 div.corretores {
     text-align: center;
+    width: 100%;
+    min-width: 280px;
+    max-width: 800px;
 }
 div.corretores > h3 {
 
-    color: #172cebb6;
+    color: #1c81c0;
+}
+
+div.corretores > p > a {
+
+    color: #1d80c1;
+    text-decoration: none;
+    border-bottom: 2px solid #1d80c1;
 }
 
 strong.servicos2 {
 
-    color: #172cebb6;
+    color: #1c81c0;
 }
 
 div.contato {
     text-align: center;
-    background-color: rgba(104, 104, 188, 0.818) ;
+    background-color: #1d80c1 ;
     color: white;
     padding: 10px;
+    width: 100%;
+    min-width: 280px;
+    max-width: 800px;
 }
 
 div.contato > p.black {
@@ -92,7 +130,7 @@ div.contato > p.black {
 }
 div.contato p > strong {
 
-    color: gold;
+    color: #fff81b;
     
 }
 
