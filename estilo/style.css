@@ -40,5 +40,6 @@ p > strong {
 
 div.servicos {
     text-align: center;
-    background-color: rgba(74, 74, 149, 0.786);
+    background-color: #172cebb6;
+    color: white;
 }
