@@ -1,10 +1,16 @@
 @charset "UTF-8";
 
+body {
+    
+
+    
+}
+
 div.cabecalho {
     text-align: center;
     background-color: rgb(9, 255, 255);
     padding: 5px;
-    width: 100%;
+    margin: 5px 5px 5px 5px;
 }
 
 p > a {
@@ -19,11 +25,15 @@ p > a {
 div.imagem {
     text-align: center;
     padding: 20px;
-    width: 100%;
+    width: 90%;
+    
 }
 
 div.sobre {
     text-align: center;
+    width: 100%;
+    min-width: 280px;
+    max-width: 800px;
 }
 
 p.destaque {
@@ -43,8 +53,59 @@ div.servicos {
     background-color: #172cebb6;
     color: white;
     padding: 15px;
-    margin:  25px;
+    margin:  30px;
+}
+
+div.servicos > ul {
+    list-style-position: inside;
 }
 strong.servicos1 {
     color: gold;
+}
+
+div.corretores {
+    text-align: center;
+}
+div.corretores > h3 {
+
+    color: #172cebb6;
+}
+
+strong.servicos2 {
+
+    color: #172cebb6;
+}
+
+div.contato {
+    text-align: center;
+    background-color: rgba(104, 104, 188, 0.818) ;
+    color: white;
+    padding: 10px;
+}
+
+div.contato > p.black {
+
+    background-color: black;
+    margin-left: 114px;
+    margin-right: 148px;
+    padding: 5px;
+}
+div.contato p > strong {
+
+    color: gold;
+    
+}
+
+div.contato > p > a {
+
+    background-color: white;
+    border-radius: 4px;
+
+    padding: 3px;
+}
+
+img.responsivo {
+
+    width: 100%;
+    
 }
