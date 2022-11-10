@@ -42,6 +42,8 @@ div.servicos {
     text-align: center;
     background-color: #172cebb6;
     color: white;
+    padding: 15px;
+    margin:  25px;
 }
 strong.servicos1 {
     color: gold;
